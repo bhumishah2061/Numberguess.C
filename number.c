@@ -5,9 +5,8 @@
 int main() {
     int random, guess, count = 0;
 
-    srand(time(0)); // initialize random seed
-    random = rand() % 100; // generate random number between 0 and 99
-
+    srand(time(0)); 
+    random = rand() % 100;
     printf("Guess a number between 0 and 99\n");
 
     while (1) {
